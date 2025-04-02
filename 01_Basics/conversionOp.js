@@ -26,3 +26,29 @@ console.log(typeof booleanIsLoggedIn)
 let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber)
+
+/**********OPERATION****************/
+
+let value = 3
+let negvalue = -value
+console.log(negvalue)
+
+console.log(2+2); //and other operations like this can be written
+
+let str1 = "Hello"
+let str2 = " Shobhit"
+let str3 = str1+str2
+console.log(str3);
+
+//Problems
+console.log("1"+2)
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+console.log(+true) //(true+) will show error
+
+console.log(+"")
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)
