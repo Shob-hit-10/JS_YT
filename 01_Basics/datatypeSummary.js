@@ -26,3 +26,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction); //More specifically its dataType is Function_Object
+
+
+/*************************************MEMORY*******************************/
+// Stack (Premitive), Heap (Non-Premitive)
+
+//Here it will create a copy and make changes in the copy only, not the original file.
+let myYTName = "ShobhitYT"
+let anotherName = myYTName
+anotherName = "nameChanged"
+console.log(myYTName);
+console.log(anotherName);
+
+
+//Here it will make changes in the original file itself, without making a copy.
+let userOne = {
+    email : "sk@gmail.com",
+    upi: "user@okaxis",
+}
+let userTwo = userOne
+
+userTwo.email="shobhit@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
